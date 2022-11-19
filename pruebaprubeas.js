@@ -1,7 +1,6 @@
+a = setTimeout(() => {
+        console.log('weee 1')
+        setTimeout(() => {
+            console.log('weee 2');},3000);}, 1500)
 
-const a = [1,2,3];
-a.push(4);
 
-a= ['a','b'];
-
-console.log(a);
